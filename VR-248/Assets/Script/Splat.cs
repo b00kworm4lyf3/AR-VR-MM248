@@ -3,9 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Splat : MonoBehaviour{
-    void OnCollisionEnter(Collision other){
-        if(other.gameObject.CompareTag("Fly")){
-            Destroy(other.gameObject);
+    [SerializeField] MeshRenderer fly;
+    [SerializeField] BoxCollider flyCollider;
+    [SerializeField] AudioSource splatSource;
+    [SerializeField] AudioClip splatClip;
+    void OnTriggerEnter(Collider other){
+        if(other.gameObject.CompareTag("Swatter")){
+            fly.enabled = false;
+            flyCollider.enabled = false;
+            splatSource.clip = splatClip;
+            splatSource.loop = false;
+            splatSource.Play();
         }
     }
 }

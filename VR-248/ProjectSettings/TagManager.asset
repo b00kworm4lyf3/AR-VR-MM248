@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Anchor
   - Fly
+  - Swatter
   layers:
   - Default
   - TransparentFX
