@@ -3275,10 +3275,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1911218f56c6d740bfdc7385ee6934c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fly: {fileID: 0}
-  flyCollider: {fileID: 0}
-  splatSource: {fileID: 0}
-  splatClip: {fileID: 0}
+  fly: {fileID: 1310558544}
+  flyCollider: {fileID: 1310558548}
+  splatSource: {fileID: 1310558547}
+  splatClip: {fileID: 8300000, guid: e133b2495d1270e45bb94069c8ca68ba, type: 3}
 --- !u!54 &1310558550
 Rigidbody:
   m_ObjectHideFlags: 0
