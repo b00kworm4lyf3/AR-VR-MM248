@@ -2,19 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnFly : MonoBehaviour{
+public class RespawnFly : MonoBehaviour{
     [SerializeField] MeshRenderer fly;
     [SerializeField] BoxCollider flyCollider;
     [SerializeField] AudioSource flySource;
     [SerializeField] AudioClip flyClip;
-    [SerializeField] bool spawnFly;
+    [SerializeField] Canvas flyCanvas;
     void Update(){
-        if(spawnFly){
-            fly.enabled = true;
-            flyCollider.enabled = true;
-            flySource.clip = flyClip;
-            flySource.loop = true;
-            flySource.Play();
-        }
+        fly.enabled = true;
+        flyCollider.enabled = true;
+        flySource.loop = true;
+        flySource.clip = flyClip;
+        flySource.Play();
+        flyCanvas.gameObject.SetActive(false);
     }
 }
