@@ -7009,7 +7009,7 @@ GameObject:
   - component: {fileID: 2049916384}
   - component: {fileID: 2049916383}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Respawn Zone
   m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
