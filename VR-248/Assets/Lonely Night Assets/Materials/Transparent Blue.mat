@@ -125,9 +125,9 @@ Material:
     - _ReflectionStrength: 0.05
     - _Smoothness: 0.25
     - _SmoothnessTextureChannel: 0
-    - _SpecularDensity: 4
+    - _SpecularDensity: 9
     - _SpecularHighlights: 1
-    - _SpecularOffset: 492
+    - _SpecularOffset: 497
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 1
@@ -145,6 +145,6 @@ Material:
     - _SpecColor: {r: 0.28627452, g: 0.10980393, b: 0.59607846, a: 1}
     - _SpecularColor: {r: 0, g: 0.47058824, b: 0.4039825, a: 0.45490196}
     - _VoronoiAnim: {r: 4.64, g: 26.96, b: 0, a: 0}
-    - _VoronoiOffset: {r: 0.05, g: 0.01, b: 0, a: 0}
+    - _VoronoiOffset: {r: 0.05, g: 0.05, b: 0, a: 0}
     - _VoronoiTiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
